@@ -47,5 +47,5 @@ function Matrix(matrix) {
     };
 }
 
-module.exports = Matrix
+
 
