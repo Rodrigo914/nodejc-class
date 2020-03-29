@@ -1,0 +1,22 @@
+{
+  "name": "class-server",
+  "version": "1.0.0",
+  "description": "This a example class server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo914/nodejc-class.git"
+  },
+  "author": "Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigo914/nodejc-class/issues"
+  },
+  "homepage": "https://github.com/Rodrigo914/nodejc-class#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
