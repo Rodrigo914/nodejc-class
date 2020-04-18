@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/main.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <h2 class="title">
+            Introduce el tamano de tu matriz
+        </h2>
+
+
+        <div class="form-control">
+            <input type="text" id="matrixSize" placeholder="Tamano de la matriz">
+
+            <button class="btn btn-blue" onclick="drawMatrix()">
+                Aceptar
+            </button>
+        </div>
+
+
+
+
+        <div class="table">
+            <!-- <div class="table-row">
+                <input type="text" class="matrix-item">
+                <input type="text" class="matrix-item">
+                <input type="text" class="matrix-item">
+                <input type="text" class="matrix-item">
+            </div>
+            <div class="table-row">
+                <input type="text" class="matrix-item">
+                <input type="text" class="matrix-item">
+                <input type="text" class="matrix-item">
+                <input type="text" class="matrix-item">
+            </div> -->
+            Aqui va la tabla
+
+        </div>
+
+
+    </div>
+    <button class="btn btn-red" onclick=" getDeterminant()"> calcular determinante </button>
+
+    <h4>
+        La determinante es:
+        <span id="result"></span>
+    </h4>
+
+
+    <form action="/users/create" method="post">
+        <input type="text" name="firstName">
+        <input type="text" name="lastName">
+        <input type="submit" value="Enviar">
+    </form>
+
+
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js></script>
+    <script src="/js/matrix.js"></script>
+</body>
+
+</html>
